@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+}
+.img{
+    height: 480px;
+    width: 450px;
+     border: 1px solid rgb(255, 255, 255); 
+    background-image: url(../folder/poster-4103332.jpg);
+    background-size: cover;
+    /* opacity: 0.7; */
+    border-radius: 20px 0 0 20px;
+    /* margin: 100px 0 0 100px; */
+}
+img{
+    opacity: 0.7;
+}
+h1{
+    font-size: x-large;
+    margin: 100px 0 0 50px;
+}
+button{
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    border-color: black 1px 1px  solid;
+}
+button:hover{
+    border-color: rgb(255, 0, 0) 1px solid;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+fieldset{
+    color: light rgb(146, 146, 181);
+}
+.form
+{
+    height: 480px;
+    width: 450px;
+    /* border: 1px solid gray; */
+    background-color: light rgb(22, 22, 61);
+}
+input{
+    height: 30px;
+    width: 110px;
+}
+.img .form{
+    display: inline;
+}
+
+
+
+#l-name{
+    padding-left: 20px;
+}
+.e-m {
+    margin-top: 20px;
+     margin-left: 30px; 
+}
+.e-p{
+    margin-top: 20px;
+     margin-left: 10px; 
+}
+ #e-m{
+    margin-top: 20px;
+    width: 250px;
+} 
+.date{
+    margin-top: 20px;
+    margin-left:-5px;
+}
+.file{
+    margin-top: 20px;
+    margin-left:-5px;
+}
+.comment{
+    height: 90px;
+    width: 250px;
+}
+#submit-button{
+    color: aliceblue;
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    margin: 20px 0 5px 60px;
+}
+#submit-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 119, 255);
+    height: 45px;
+    width: 290px;
+    margin: 20px 0 5px 60px;
+    transition: 0.9s;
+    border-color: 2px solid rgb(0, 119, 255);;
+
+}
+#submit-button:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 77, 5);
+    height: 40px;
+    width: 250px;
+    margin: 20px 0 5px 60px;
+    transition: 0.4s;
+
+}
+.rr{
+    display: flex;
+    
+    justify-content: center;
+    height: 480px;
+    width: 900px;
+    margin: 50px 0 0 10vw;
+}
+body{
+    background-color: rgb(167, 167, 219);
+}
+.-form{
+    background-color: aliceblue;
+}
